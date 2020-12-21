@@ -1,14 +1,14 @@
 # COVID dashboard
 
-## Spring Boot Start
-
-https://start.spring.io/#!type=gradle-project&language=kotlin&platformVersion=2.3.1.RELEASE&packaging=jar&jvmVersion=14&groupId=poc.mikael&artifactId=coda&name=coda&description=COVID19%20dashboard&packageName=poc.mikael.coda&dependencies=web,devtools
-
 ## Data
 
 https://data.europa.eu/euodp/en/data/dataset/covid-19-coronavirus-data
 
 https://opendata.ecdc.europa.eu/covid19/casedistribution/json/
+
+## Backend
+
+Spring Boot + Spring Kofu.
 
 ## UI
 
@@ -33,18 +33,6 @@ configurations.all {
 			.forEach { it.isTransitive = false }
 	}
 }
-```
-
-### UI Theme: AdminLTE 3
-
-Source: https://github.com/ColorlibHQ/AdminLTE
-
-Demo: https://adminlte.io/themes/v3/
-
-Package: https://www.npmjs.com/package/admin-lte
-
-```
-	implementation("org.webjars.npm:admin-lte:3.0.5")
 ```
 
 ### UI Theme: CoreUI
